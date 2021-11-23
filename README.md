@@ -17,7 +17,7 @@ averageOver is not yet on CRAN. But, you can download it from this
 repository using the following R command:
 
 ``` r
-devtools::install_github("Tabitha-kdy/averageOver")
+devtools::install_github("tabithakennedy22/averageOver")
 ```
 
 ## Example
