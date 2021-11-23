@@ -30,7 +30,7 @@ dataset from datateachr:
 library(averageOver)
 library(datateachr)
 
-avg_a_per_b(apt_buildings, apt_buildings$no_of_units, 
-    apt_buildings$no_of_storeys)
-#> [1] Inf
+avg_a_per_b(apt_buildings, apt_buildings$no_of_storeys, 
+    apt_buildings$no_of_units)
+#> [1] 0.1282693
 ```
