@@ -1,0 +1,23 @@
+Package: averageOver
+Title: Calculate the Average of a per b
+Version: 0.1.0
+Authors@R: 
+    person(given = "Tabitha",
+    family = "Kennedy",
+    role = c("aut", "cre"),
+    email = "tabitha.kennedy22@gmail.com")
+Description: Creates a new column in your dataset by dividing 
+    values from column a by values of column b, then calculates
+    the mean for this new column, producing an estimate for the 
+    average of a per b.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Suggests: 
+    datateachr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    dplyr
