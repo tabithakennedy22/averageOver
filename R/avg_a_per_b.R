@@ -9,7 +9,7 @@
 #' @importFrom dplyr mutate
 #' @examples
 #' library(datateachr)
-#' avg_a_per_b(apt_buildings, apt_buildings$no_of_units, apt_buildings$no_of_storeys)
+#' avg_a_per_b(apt_buildings, apt_buildings$no_of_storeys, apt_buildings$no_of_units)
 #' avg_a_per_b(apt_buildings, apt_buildings$no_barrier_free_accessible_units, apt_buildings$no_of_units)
 #' @export
 
